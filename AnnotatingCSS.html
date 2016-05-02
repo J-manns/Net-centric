@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Annotating CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="MyHomepage.js"></script>
+    <link href="MyHomepage.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<body onload="initTabs()">
+<ul id="tabs">
+    <li><a href="#about">Home</a></li>
+    <li><a href="#advantages">Assignments</a></li>
+    <li><a href="#usage">Interesting stuff</a></li>
+</ul>
+
+<div class="tabContent" id="about">
+
+    <div>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="https://github.com/J-manns/Net-centric">My GitHub</a></p>
+    </div>
+</div>
+<div class="tabContent" id="advantages">
+    <h2>Net-Centric Assignments</h2>
+    <div>
+        <p><a href="HelloWorld.html">Hello World</a>- My first assignment where I had to make a webpage that says hello world</p>
+        <p><a href="RaxiomHeadlights.html">Mimic Advertisement</a>- My second assignment where I had to mimic a magazine advertizement</p>
+        <p><a href="AnnotatingCSS.html">Annotating CSS</a>- I had to comment on the css file telling what it does</p>
+        <p><a href="JQuery.html">JQuery</a>- had to make a page that used JQuery</p>
+        <p><a href="Ajax DataBase.html">Databases Assignment</a>- a database that you can insert and get from</p>
+
+    </div>
+</div>
+<div class="tabContent" id="usage">
+    <h2>Interesting stuff</h2>
+    <div>
+        <p><a href="">Favorite Videos</a></p>
+        <p></p>
+    </div>
+</div>
+<p class="HelloWorld">
+    /*
+    <!--
+    To change this license header, choose License Headers in Project Properties.
+    To change this template file, choose Tools | Templates
+    and open the template in the editor.
+    -->
+    body</br>
+    {</br>
+    font-size: 80%;                         /* Default font and size for page */</br>
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;</br>
+    }</br>
+    ul#tabs</br>
+    {</br>
+    list-style-type: none;                  /* No bullets                     */</br>
+    margin: 300px 0 0 0;                    /* Positive top margin            */</br>
+    padding: 0 0 0.3em 0;                   /* Bottom padding on tabs to make */</br>
+    /* them adjacent to the content   */</br>
+    }</br>
+    ul#tabs li</br>
+    {</br>
+    display: inline;        /* It sets the tabs inline*/</br>
+    padding: 12px;          /* puts a padding of 12px at the top*/</br>
+    }</br>
+
+    ul#tabs li a</br>
+    {</br>
+    color: #42454a;</br>
+    background-color: #dedbde; /*sets the background color of the tabs*/</br>
+    border: 1px solid #c9c3ba; /*makes the border solid and 1 px*/</br>
+    border-bottom: none;        /*makes there be no border on the bottom*/</br>
+    border-top-left-radius: 7px; /*changes size of the border on the top left*/</br>
+    border-top-right-radius: 7px;/*changes size of the border on the top right*/</br>
+    padding: 0.3em 2em 0.3em 2em; /*changed padding to make it look more even*/</br>
+    text-decoration: none;        /*takes away the text decoration*/</br>
+
+    }</br>
+
+    ul#tabs li a:hover</br>
+    {</br>
+    background-color: #f1f0ee;  /*makes the background color change*/</br>
+    }                               /* when hovering over the list     */</br>
+
+    ul#tabs li a.selected</br>
+    {</br>
+    color: #000;                    /*sets the color when selected           */</br>
+    background-color: #f1f0ee;      /*sets the background color when selected*/</br>
+    font-weight: bold;              /*changes the font to bold*/</br>
+    padding: 0.7em 0.3em 0.38em 0.3em; /*sets padding to line up the list*/</br>
+    }</br>
+
+    div.tabContent</br>
+    {</br>
+    border: 1px solid #c9c3ba;  /*sets the tabs border content to solid 1px*/</br>
+    padding: 0.5em;             /*changed the contents padding*/</br>
+    background-color: #f1f0ee;  /*changes the contents background color*/</br>
+    }</br>
+
+    div.tabContent.hide</br>
+    {</br>
+    display: none;            /*sets the tabs content to hidden until selected*/</br>
+    }                             /*then the Javascript file shows it*/*/</p></br>
+</body>
+</html>
